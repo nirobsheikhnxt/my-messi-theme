@@ -1,0 +1,43 @@
+/**
+ * @name Leo Messi Edition
+ * @author YourUsername
+ * @version 1.0.0
+ * @description A premium Discord theme themed around Lionel Messi, combining deep navy blue, burgundy crimson, and gold accents.
+ * @source https://github.com/YourUsername/my-messi-theme
+ * @website https://github.com/YourUsername/my-messi-theme
+*/
+
+/* 1. IMPORT CORE DARK MATTER THEME */
+@import url('https://DiscordStyles.github.io/DarkMatter/src/base.css');
+
+/* 2. THEME CUSTOMIZATIONS */
+:root {
+  /* BACKGROUND AND IMAGE SETTINGS */
+  /* Replace the URL below with the Raw GitHub link of your "Wallpaper (1).jpg" */
+  --background-image: url('PASTE_YOUR_RAW_WALLPAPER_URL_HERE');
+  
+  /* Home button icon (top-left) - set to a gold/crimson pulsing logo or abstract */
+  --home-image: url('https://i.imgur.com/233d55Y.gif');
+
+  /* ACCENT COLORS (Must be in R, G, B triplet format without rgb() wrappers) */
+  --accent: 168, 25, 46;        /* Burgundy/Crimson jersey tone */
+  --accent-alt: 21, 82, 156;    /* Navy Blue jersey tone */
+  
+  /* CONTAINER BACKGROUNDS (Semi-translucent navy blue/dark grey to sit elegantly over the light wallpaper) */
+  --background-solid: #0d121d;        /* Deep navy-slate chat background */
+  --background-solid-dark: #080b12;   /* Sidebar panels (channels list) background */
+  --background-solid-darker: #04060a; /* Server list sidebar background */
+  
+  /* TEXT COLOR VARIABLES (Crisp slate & light grey for high readability) */
+  --text-normal: #f4f4f6;       /* Main readable chat text */
+  --text-muted: #b5bac1;        /* Subtitles, channel lists, timestamp text */
+  --text-link: #fcc201;         /* Gold links */
+
+  /* LAYOUT & SIZING */
+  --avatar-size: 32px;          /* Controls the roundness and size of member list avatars */
+}
+
+/* Custom overlay adjustment to ensure the light grey wallpaper doesn't blind you */
+.app_bd05f1 {
+  background: rgba(15, 18, 26, 0.65) !important;
+}
