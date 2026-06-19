@@ -14,7 +14,7 @@
 :root {
   /* BACKGROUND AND IMAGE SETTINGS */
   /* Lionel Messi Wallpaper (1).jpg hosted in repository */
-  --background-image: url('https://github.com/nirobsheikhnxt/my-messi-theme/blob/main/Wallpaper%20(1).jpg?raw=true');
+  --background-image: url('https://raw.githubusercontent.com/nirobsheikhnxt/my-messi-theme/main/Wallpaper%20(1).jpg');
   
   /* Home button icon (top-left) - set to a gold/crimson pulsing logo or abstract */
   --home-image: url('https://i.imgur.com/233d55Y.gif');
