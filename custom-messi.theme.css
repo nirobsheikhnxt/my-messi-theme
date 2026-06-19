@@ -1,10 +1,10 @@
 /**
  * @name Leo Messi Edition
- * @author YourUsername
+ * @author nirobsheikhnxt
  * @version 1.0.0
  * @description A premium Discord theme themed around Lionel Messi, combining deep navy blue, burgundy crimson, and gold accents.
- * @source https://github.com/YourUsername/my-messi-theme
- * @website https://github.com/YourUsername/my-messi-theme
+ * @source https://github.com/nirobsheikhnxt/my-messi-theme
+ * @website https://github.com/nirobsheikhnxt/my-messi-theme
 */
 
 /* 1. IMPORT CORE DARK MATTER THEME */
@@ -13,8 +13,8 @@
 /* 2. THEME CUSTOMIZATIONS */
 :root {
   /* BACKGROUND AND IMAGE SETTINGS */
-  /* Replace the URL below with the Raw GitHub link of your "Wallpaper (1).jpg" */
-  --background-image: url('PASTE_YOUR_RAW_WALLPAPER_URL_HERE');
+  /* Lionel Messi Wallpaper (1).jpg hosted in repository */
+  --background-image: url('https://github.com/nirobsheikhnxt/my-messi-theme/blob/main/Wallpaper%20(1).jpg?raw=true');
   
   /* Home button icon (top-left) - set to a gold/crimson pulsing logo or abstract */
   --home-image: url('https://i.imgur.com/233d55Y.gif');
